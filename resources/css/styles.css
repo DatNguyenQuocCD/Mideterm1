@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* -----------------HEARDER---------------------- */
+
+.menu-icon {
+    font-size: 300%;
+    color: #302f2f;
+    position: absolute;
+    transform: translate(70%, 40%);
+}
+
+.main_menu {
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: none;
+}
+
+.main_menu li a {
+    text-decoration: none;
+    /* color: #EDF5E1; */
+    font-size: 150%;
+    font-weight: 700;
+    transition: border-bottom 0.5s;
+    padding: 3px 0;
+}
+
+.main_menu li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.main {
+    height: 90px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-left: 100px;
+    transition: 1s;
+}
+
+.search input {
+    position: relative;
+    width: 500px;
+    height: 50px;
+    margin: 15px;
+    padding-left: 60px;
+    font-size: 150%;
+}
+
+.search i {
+    position: absolute;
+    transform: translate(-1580%, 72%);
+    font-size: 200%;
+}
